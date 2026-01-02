@@ -17,28 +17,28 @@
             android:layout_height="wrap_content"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
-            android:textSize="40sp"
+            android:textSize="50sp"
             android:textColor="#FFFF8C00">
         </TextView>
 
         <TextView
             android:id="@+id/display_active"
-            android:layout_height="wrap_content"
+            android:layout_height="38sp"
             android:layout_width="wrap_content"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             android:textAlignment="viewEnd"
             android:maxWidth="360dp"
-            android:textSize="30sp">
+            android:textSize="35sp">
         </TextView>
 
         <TextView
             android:id="@+id/display_background"
-            android:layout_height="wrap_content"
+            android:layout_height="28sp"
             android:layout_width="wrap_content"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toTopOf="@id/display_active"
-            android:textSize="20sp"
+            android:textSize="25sp"
             android:layout_marginBottom="10dp">
         </TextView>
 
@@ -141,7 +141,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
             android:textSize="20sp"
-            android:text="X">
+            android:text="x">
         </Button>
 
         <Button
@@ -185,7 +185,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
             android:textSize="20sp"
-            android:text="—">
+            android:text="-">
         </Button>
 
         <Button
