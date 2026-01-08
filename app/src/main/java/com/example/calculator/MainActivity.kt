@@ -1,6 +1,7 @@
 package com.example.calculator
 
 import android.os.Bundle
+import androidx.activity.addCallback
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -23,9 +24,9 @@ class MainActivity : AppCompatActivity() {
             setReorderingAllowed(true)
             addToBackStack("fragment_main")
         }
+
+        this.onBackPressedDispatcher.addCallback() {
+            moveTaskToBack(true)
+        }
     }
-}
-
-class Activity {
-
 }
