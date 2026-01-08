@@ -79,7 +79,7 @@ class MainFragment : View.OnClickListener, Fragment(R.layout.fragment_main) {
         }
     }
     fun canBeParsed(text: String) : Boolean{
-        return text.contains(Regex("^-*[0-9]*,*[0-9E]+\$"))
+        return text.contains(Regex("^-*[0-9]*,*[0-9]+\$"))
     }
 
     fun calculate(operation: String, operand1: String, operand2: String) : Double{
